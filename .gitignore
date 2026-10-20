@@ -1,0 +1,21 @@
+# env files (keep the examples)
+.env*
+!.env.example
+!**/.env.example
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# node
+node_modules/
+dist/
+
+# os / editors
+.DS_Store
+.vscode/
+.idea/
